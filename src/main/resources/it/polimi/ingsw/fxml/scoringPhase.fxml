@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.media.MediaView?>
+
+<StackPane xmlns="http://javafx.com/javafx/23.0.1"
+           xmlns:fx="http://javafx.com/fxml/1"
+           fx:controller="it.polimi.ingsw.View.GUI.ScoringPhase_Page_Controller"
+           fx:id="rootStack"
+           prefWidth="800" prefHeight="600"
+           stylesheets="@../css/scoring_page.css">
+
+    <!-- 1) MediaView per il video di sfondo con overlay -->
+    <MediaView fx:id="backgroundVideo"
+               preserveRatio="false"/>
+
+    <!-- 2) Contenuto sopra il video -->
+    <BorderPane prefWidth="800" prefHeight="600" styleClass="border-pane">
+
+        <!-- Header -->
+        <top>
+            <VBox alignment="CENTER" spacing="8" BorderPane.alignment="CENTER" style="-fx-padding: 20;">
+                <Label text="Final Scores"/>
+            </VBox>
+        </top>
+
+        <!-- Center: tabella punteggi -->
+        <center>
+            <StackPane style="-fx-padding: 20;">
+                <TableView fx:id="scoreTable"
+                           minWidth="450" prefWidth="450" maxWidth="450"
+                           minHeight="200" prefHeight="200" maxHeight="200"
+                           fixedCellSize="40">
+                    <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+                    </columnResizePolicy>
+                    <columns>
+                        <TableColumn fx:id="playerColumn" text="Player" prefWidth="225"/>
+                        <TableColumn fx:id="scoreColumn" text="Score" prefWidth="225"/>
+                    </columns>
+                </TableView>
+            </StackPane>
+        </center>
+
+        <!-- Footer: pulsanti -->
+        <bottom>
+            <HBox alignment="CENTER" spacing="12" style="-fx-padding: 20;">
+                <Button fx:id="exitButton" text="Exit"/>
+            </HBox>
+        </bottom>
+    </BorderPane>
+</StackPane>

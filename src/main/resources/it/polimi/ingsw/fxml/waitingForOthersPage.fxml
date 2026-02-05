@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.media.MediaView?>
+
+<StackPane xmlns="http://javafx.com/javafx/23.0.1"
+           xmlns:fx="http://javafx.com/fxml/1"
+           fx:controller="it.polimi.ingsw.View.GUI.WaitingForOthers_Page_Controller"
+           fx:id="rootStack"
+           prefWidth="900" prefHeight="700"
+           style="-fx-background-color: linear-gradient(to bottom, #093BB0, #2F1D7F);">
+
+    <!-- 1) MediaView per il video di sfondo -->
+    <MediaView fx:id="backgroundVideo"
+               preserveRatio="false"/>
+
+    <!-- 2) Contenuto sopra il video: logo e messaggio -->
+    <BorderPane prefWidth="900" prefHeight="700"
+                style="-fx-background-color: transparent;"
+                StackPane.alignment="CENTER">
+
+        <center>
+            <VBox alignment="CENTER" spacing="30.0" style="-fx-background-color: transparent;">
+                <padding>
+                    <Insets bottom="40" left="40" right="40" top="40"/>
+                </padding>
+
+                <!-- Logo -->
+                <ImageView fitHeight="200" fitWidth="450" preserveRatio="true">
+                    <effect>
+                        <DropShadow color="#00000080" spread="0.2"/>
+                    </effect>
+                    <Image url="@../graphics/images/gt-2021-logo-en.png"/>
+                </ImageView>
+
+                <!-- Messaggio di attesa (testo giallo) -->
+                <Label alignment="CENTER"
+                       prefHeight="117.0" prefWidth="800"
+                       text="Waiting for other players to join.&#10;When they all join, you'll be redirected to the construction page!"
+                       textAlignment="CENTER"
+                       textFill="#FFD700"
+                       wrapText="true">
+                    <font>
+                        <Font name="System Bold" size="24"/>
+                    </font>
+                    <effect>
+                        <DropShadow color="#00000080" radius="5" spread="0.1"/>
+                    </effect>
+                    <padding>
+                        <Insets top="30"/>
+                    </padding>
+                </Label>
+            </VBox>
+        </center>
+    </BorderPane>
+</StackPane>

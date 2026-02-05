@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/23.0.1"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="it.polimi.ingsw.View.GUI.CreateGame_Page_Controller"
+            prefWidth="800" prefHeight="600"
+            style="-fx-background-color: black;">
+
+    <center>
+        <!-- Sfondo video + ScrollPane -->
+        <StackPane fx:id="rootStack"
+                   minWidth="0" minHeight="0">
+
+            <!-- 1) Video di sfondo -->
+            <MediaView fx:id="backgroundVideo"
+                       preserveRatio="false"
+                       fitWidth="800" fitHeight="600"/>
+
+            <!-- 2) ScrollPane senza barre visibili, scrollabile con rotellina -->
+            <ScrollPane pannable="true"
+                        fitToWidth="true"
+                        hbarPolicy="NEVER"
+                        vbarPolicy="NEVER"
+                        style="-fx-background: transparent; -fx-background-color: transparent;"
+                        StackPane.alignment="CENTER"
+                        minWidth="0" minHeight="0">
+
+                <!-- Wrapper per centrare il contenuto quando piccolo -->
+                <StackPane
+                        style="-fx-background-color: transparent;"
+                        minWidth="0" minHeight="0">
+                    <VBox alignment="CENTER"
+                          spacing="30"
+                          style="-fx-background-color: transparent;"
+                          minWidth="0" minHeight="0">
+                        <padding>
+                            <Insets top="40" right="40" bottom="40" left="40"/>
+                        </padding>
+
+                        <!-- Logo Galaxy Trucker -->
+                        <ImageView fitHeight="240" fitWidth="540" preserveRatio="true"
+                                   style="-fx-effect: dropshadow(gaussian, rgba(255,215,0,0.8), 15, 0.4, 0, 6);">
+                            <Image url="@../graphics/images/gt-2021-logo-en.png"/>
+                        </ImageView>
+
+                        <!-- Label “Game Setup” fisso a 52pt -->
+                        <Label text="Game Setup"
+                               textFill="#FFD700"
+                               alignment="CENTER"
+                               style="-fx-font-family:'Segoe UI'; -fx-font-weight:bold; -fx-font-size: 50">
+                            <effect>
+                                <Glow level="0.6"/>
+                            </effect>
+                            <padding>
+                                <Insets top="15" bottom="25"/>
+                            </padding>
+                        </Label>
+
+                        <!-- Selezione modalità + livello + giocatori -->
+                        <VBox alignment="CENTER"
+                              spacing="25"
+                              styleClass="setup-panel"
+                              maxWidth="700"
+                              minWidth="0">
+                            <HBox alignment="CENTER"
+                                  spacing="80">
+                                <!-- Colonna Create a new game + sottobox -->
+                                <VBox spacing="20"
+                                      HBox.hgrow="ALWAYS"
+                                      minWidth="0"
+                                >
+                                    <RadioButton fx:id="createGame"
+                                                 text="Create a new game"
+                                                 styleClass="galaxy-radio"
+                                                 textFill="#FFD700">
+                                        <font>
+                                            <Font size="22"/>
+                                        </font>
+                                        <effect>
+                                            <DropShadow color="rgba(255,215,0,0.5)"
+                                                        radius="4" spread="0.2"
+                                                        offsetY="1"/>
+                                        </effect>
+                                    </RadioButton>
+
+                                    <!-- LevelBox (nascosto) -->
+                                    <VBox fx:id="levelBox"
+                                          spacing="10"
+                                          visible="false"
+                                          managed="false"
+                                          minWidth="0"
+                                    >
+                                        <Label text="Level:" textFill="#FFD700">
+                                            <font>
+                                                <Font size="24"/>
+                                            </font>
+                                            <effect>
+                                                <Glow level="0.4"/>
+                                            </effect>
+                                        </Label>
+                                        <RadioButton fx:id="testFlightLevel"
+                                                     text="Test Flight"
+                                                     styleClass="galaxy-radio"
+                                                     textFill="#FFD700">
+                                            <font>
+                                                <Font size="22"/>
+                                            </font>
+                                            <effect>
+                                                <DropShadow color="rgba(255,215,0,0.5)"
+                                                            radius="3" spread="0.2"
+                                                            offsetY="1"/>
+                                            </effect>
+                                        </RadioButton>
+                                        <RadioButton fx:id="level2Level"
+                                                     text="Level 2"
+                                                     styleClass="galaxy-radio"
+                                                     textFill="#FFD700">
+                                            <font>
+                                                <Font size="22"/>
+                                            </font>
+                                            <effect>
+                                                <DropShadow color="rgba(255,215,0,0.5)"
+                                                            radius="3" spread="0.2"
+                                                            offsetY="1"/>
+                                            </effect>
+                                        </RadioButton>
+                                    </VBox>
+
+                                    <!-- PlayersBox (nascosto) -->
+                                    <VBox fx:id="playersBox"
+                                          spacing="10"
+                                          visible="false"
+                                          managed="false"
+                                          minWidth="0"
+                                    >
+                                        <Label text="Players:" textFill="#FFD700">
+                                            <font>
+                                                <Font size="24"/>
+                                            </font>
+                                            <effect>
+                                                <Glow level="0.4"/>
+                                            </effect>
+                                        </Label>
+                                        <RadioButton fx:id="newGame2Players"
+                                                     text="2"
+                                                     styleClass="galaxy-radio"
+                                                     textFill="#FFD700">
+                                            <font>
+                                                <Font size="22"/>
+                                            </font>
+                                            <effect>
+                                                <DropShadow color="rgba(255,215,0,0.5)"
+                                                            radius="3" spread="0.2"
+                                                            offsetY="1"/>
+                                            </effect>
+                                        </RadioButton>
+                                        <RadioButton fx:id="newGame3Players"
+                                                     text="3"
+                                                     styleClass="galaxy-radio"
+                                                     textFill="#FFD700">
+                                            <font>
+                                                <Font size="22"/>
+                                            </font>
+                                            <effect>
+                                                <DropShadow color="rgba(255,215,0,0.5)"
+                                                            radius="3" spread="0.2"
+                                                            offsetY="1"/>
+                                            </effect>
+                                        </RadioButton>
+                                        <RadioButton fx:id="newGame4Players"
+                                                     text="4"
+                                                     styleClass="galaxy-radio"
+                                                     textFill="#FFD700">
+                                            <font>
+                                                <Font size="22"/>
+                                            </font>
+                                            <effect>
+                                                <DropShadow color="rgba(255,215,0,0.5)"
+                                                            radius="3" spread="0.2"
+                                                            offsetY="1"/>
+                                            </effect>
+                                        </RadioButton>
+                                    </VBox>
+                                </VBox>
+
+                                <!-- See old games -->
+                                <RadioButton fx:id="seeOldGames"
+                                             text="See available games"
+                                             styleClass="galaxy-radio"
+                                             textFill="#FFD700">
+                                    <font>
+                                        <Font size="22"/>
+                                    </font>
+                                    <effect>
+                                        <DropShadow color="rgba(255,215,0,0.5)"
+                                                    radius="4" spread="0.2"
+                                                    offsetY="1"/>
+                                    </effect>
+                                </RadioButton>
+                            </HBox>
+                        </VBox>
+
+                        <!-- Lista vecchie partite: dimensione fissa, sfondo scuro neon -->
+                        <ListView fx:id="oldGamesList"
+                                  prefHeight="250"
+                                  minHeight="250"
+                                  maxHeight="250"
+                                  prefWidth="700"
+                                  minWidth="700"
+                                  maxWidth="700"
+                                  style="-fx-background-color: rgba(0,0,0,0.75);
+                                         -fx-control-inner-background: rgba(0,0,0,0.75);
+                                         -fx-border-color: #FFD700;
+                                         -fx-border-width: 2;
+                                         -fx-background-radius: 6;
+                                         -fx-border-radius: 6;
+                                         -fx-cell-hover-color: rgba(255,215,0,0.2);
+                                         -fx-cell-hover-text-fill: white;"
+                                  visible="false"
+                                  managed="false">
+                            <VBox.margin>
+                                <Insets bottom="20"/>
+                            </VBox.margin>
+                        </ListView>
+
+                        <!-- Pulsante Next più grande, legato al CSS -->
+                        <Button fx:id="nextButton"
+                                text="Next"
+                                onAction="#handleNextAction"
+                                styleClass="sci-fi-button, sci-fi-button-large">
+                            <VBox.margin>
+                                <Insets top="20"/>
+                            </VBox.margin>
+                        </Button>
+                    </VBox>
+                </StackPane>
+            </ScrollPane>
+        </StackPane>
+    </center>
+</BorderPane>

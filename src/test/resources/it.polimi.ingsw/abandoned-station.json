@@ -1,0 +1,363 @@
+[
+  {
+    "id": 1,
+    "cardName": "Stazione Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedStation",
+    "flightDaysPenalty": 1,
+    "requiredCrew": 5,
+    "goodsArray": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "cardName": "Stazione Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedStation",
+    "flightDaysPenalty": 1,
+    "requiredCrew": 5,
+    "goodsArray": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "cardName": "Stazione Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedStation",
+    "flightDaysPenalty": 1,
+    "requiredCrew": 5,
+    "goodsArray": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "cardName": "Stazione Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedStation",
+    "flightDaysPenalty": 1,
+    "requiredCrew": 5,
+    "goodsArray": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "cardName": "Stazione Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedStation",
+    "flightDaysPenalty": 1,
+    "requiredCrew": 5,
+    "goodsArray": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "cardName": "Stazione Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedStation",
+    "flightDaysPenalty": 1,
+    "requiredCrew": 5,
+    "goodsArray": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "cardName": "Stazione Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedStation",
+    "flightDaysPenalty": 1,
+    "requiredCrew": 5,
+    "goodsArray": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "cardName": "Stazione Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedStation",
+    "flightDaysPenalty": 1,
+    "requiredCrew": 5,
+    "goodsArray": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "cardName": "Stazione Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedStation",
+    "flightDaysPenalty": 1,
+    "requiredCrew": 5,
+    "goodsArray": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "cardName": "Stazione Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedStation",
+    "flightDaysPenalty": 1,
+    "requiredCrew": 5,
+    "goodsArray": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "cardName": "Stazione Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedStation",
+    "flightDaysPenalty": 1,
+    "requiredCrew": 5,
+    "goodsArray": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "cardName": "Stazione Abbandonata",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_AbandonedStation",
+    "flightDaysPenalty": 1,
+    "requiredCrew": 5,
+    "goodsArray": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "cardName": "Stazione Abbandonata",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_AbandonedStation",
+    "flightDaysPenalty": 1,
+    "requiredCrew": 5,
+    "goodsArray": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "cardName": "Stazione Abbandonata",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_AbandonedStation",
+    "flightDaysPenalty": 1,
+    "requiredCrew": 5,
+    "goodsArray": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "cardName": "Stazione Abbandonata",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_AbandonedStation",
+    "flightDaysPenalty": 1,
+    "requiredCrew": 5,
+    "goodsArray": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "cardName": "Stazione Abbandonata",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_AbandonedStation",
+    "flightDaysPenalty": 1,
+    "requiredCrew": 5,
+    "goodsArray": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "cardName": "Stazione Abbandonata",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_AbandonedStation",
+    "flightDaysPenalty": 1,
+    "requiredCrew": 5,
+    "goodsArray": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "cardName": "Stazione Abbandonata",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_AbandonedStation",
+    "flightDaysPenalty": 1,
+    "requiredCrew": 5,
+    "goodsArray": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "cardName": "Stazione Abbandonata",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_AbandonedStation",
+    "flightDaysPenalty": 1,
+    "requiredCrew": 5,
+    "goodsArray": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      }
+    ]
+  }
+]

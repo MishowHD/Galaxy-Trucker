@@ -1,0 +1,1382 @@
+[
+  {
+    "id": 1,
+    "cardName": "Pianeti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "cardName": "Pianeti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "cardName": "Pianeti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "cardName": "Pianeti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "cardName": "Pianeti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "cardName": "Pianeti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "cardName": "Pianeti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "cardName": "Pianeti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "cardName": "Pianeti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "cardName": "Pianeti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "cardName": "Pianeti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "cardName": "Pianeti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "cardName": "Pianeti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "cardName": "Pianeti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "cardName": "Pianeti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "cardName": "Pianeti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "cardName": "Pianeti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "cardName": "Pianeti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "cardName": "Pianeti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "cardName": "Pianeti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "cardName": "Pianeti",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "cardName": "Pianeti",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "cardName": "Pianeti",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "cardName": "Pianeti",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "cardName": "Pianeti",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "cardName": "Pianeti",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "cardName": "Pianeti",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "cardName": "Pianeti",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "cardName": "Pianeti",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "cardName": "Pianeti",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  }
+]

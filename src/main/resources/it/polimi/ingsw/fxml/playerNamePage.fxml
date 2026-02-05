@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Font?>
+
+<StackPane xmlns="http://javafx.com/javafx/23.0.1"
+           xmlns:fx="http://javafx.com/fxml/1"
+           fx:controller="it.polimi.ingsw.View.GUI.PlayerName_Page_Controller"
+           fx:id="rootStack"
+           prefWidth="800" prefHeight="600"
+           style="-fx-background-color: black;">
+
+    <!-- Video di sfondo a pieno schermo -->
+    <MediaView fx:id="backgroundVideo"
+               fitWidth="800" fitHeight="600"
+               preserveRatio="false"
+    />
+
+    <!-- Contenuto principale centrato sul video -->
+    <VBox alignment="CENTER" spacing="35.0" style="-fx-padding: 30 20 30 20;">
+        <!-- Logo Galaxy Trucker (più grande) con bagliore giallo -->
+        <ImageView fitHeight="280.0" fitWidth="620.0" preserveRatio="true"
+                   style="-fx-effect: dropshadow(gaussian, rgba(255,215,0,0.8), 18, 0.4, 0, 8);">
+            <Image url="@../graphics/images/gt-2021-logo-en.png"/>
+        </ImageView>
+
+        <!-- Istruzione per l'utente, font ingrandito e bagliore giallo -->
+        <Label text="Insert your username"
+               textFill="#FFD700"
+               alignment="CENTER"
+               style="-fx-font-family: 'Segoe UI'; -fx-font-weight: bold;">
+            <font>
+                <Font size="32.0"/>
+            </font>
+            <effect>
+                <Glow level="0.5"/>
+            </effect>
+        </Label>
+
+        <!-- Barra di inserimento e pulsante -->
+        <HBox alignment="CENTER" spacing="20.0">
+            <!-- TextField con bordo neon giallo, font più grande e ombra interna -->
+            <TextField fx:id="usernameField"
+                       promptText="Enter your captain name..."
+                       prefWidth="650.0" prefHeight="50.0"
+                       style="-fx-background-color: rgba(0, 0, 0, 0.6);
+                              -fx-background-radius: 10;
+                              -fx-border-radius: 10;
+                              -fx-border-color: #FFD700;
+                              -fx-border-width: 2;
+                              -fx-prompt-text-fill: #FFF5B1;
+                              -fx-font-family: 'Segoe UI';
+                              -fx-font-size: 20px;
+                              -fx-text-fill: #FFFFFF;">
+                <effect>
+                    <DropShadow color="rgba(0,0,0,0.4)" radius="4" spread="0.2" offsetY="2"/>
+                </effect>
+                <font>
+                    <Font name="Segoe UI" size="20.0"/>
+                </font>
+            </TextField>
+
+            <!-- Pulsante "LAUNCH" con classe sci-fi-button gialla -->
+            <Button fx:id="registerButton"
+                    mnemonicParsing="false"
+                    onAction="#register"
+                    text="LAUNCH"
+                    prefHeight="50.0"
+                    styleClass="sci-fi-button">
+                <padding>
+                    <Insets top="10" right="25" bottom="10" left="25"/>
+                </padding>
+            </Button>
+        </HBox>
+    </VBox>
+</StackPane>

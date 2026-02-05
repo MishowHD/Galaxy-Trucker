@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 2,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 3,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 4,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 5,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 6,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 7,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 8,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 9,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 10,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 11,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 12,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 13,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 14,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 15,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 16,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 17,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 18,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 19,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 20,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_OpenSpace"
+  }
+]

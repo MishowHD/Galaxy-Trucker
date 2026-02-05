@@ -1,0 +1,1765 @@
+[
+  {
+    "id": 1,
+    "connectorList": [
+      "UNIV_connector",
+      "SINGLE_connector",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Tile_DoublePowerCenter",
+    "types": "Tile_BatteryComponent"
+  },
+  {
+    "id": 2,
+    "connectorList": [
+      "UNIV_connector",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Tile_DoublePowerCenter",
+    "types": "Tile_BatteryComponent"
+  },
+  {
+    "id": 3,
+    "connectorList": [
+      "UNIV_connector",
+      "DOUBLE_connector",
+      "SINGLE_connector",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Tile_DoublePowerCenter",
+    "types": "Tile_BatteryComponent"
+  },
+  {
+    "id": 4,
+    "connectorList": [
+      "DOUBLE_connector",
+      "SINGLE_connector",
+      "DOUBLE_connector",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Tile_DoublePowerCenter",
+    "types": "Tile_BatteryComponent"
+  },
+  {
+    "id": 5,
+    "connectorList": [
+      "UNIV_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Tile_DoublePowerCenter",
+    "types": "Tile_BatteryComponent"
+  },
+  {
+    "id": 6,
+    "connectorList": [
+      "UNIV_connector",
+      "SINGLE_connector",
+      "SINGLE_connector",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Tile_DoublePowerCenter",
+    "types": "Tile_BatteryComponent"
+  },
+  {
+    "id": 7,
+    "connectorList": [
+      "UNIV_connector",
+      "DOUBLE_connector",
+      "DOUBLE_connector",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "Tile_DoublePowerCenter",
+    "types": "Tile_BatteryComponent"
+  },
+  {
+    "id": 8,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "Tile_DoublePowerCenter",
+    "types": "Tile_BatteryComponent"
+  },
+  {
+    "id": 9,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "Tile_DoublePowerCenter",
+    "types": "Tile_BatteryComponent"
+  },
+  {
+    "id": 10,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "UNIV_connector",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "Tile_DoublePowerCenter",
+    "types": "Tile_BatteryComponent"
+  },
+  {
+    "id": 11,
+    "connectorList": [
+      "UNIV_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "Tile_DoublePowerCenter",
+    "types": "Tile_BatteryComponent"
+  },
+  {
+    "id": 12,
+    "connectorList": [
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Tile_TriplePowerCenter",
+    "types": "Tile_BatteryComponent"
+  },
+  {
+    "id": 13,
+    "connectorList": [
+      "SINGLE_connector",
+      "SINGLE_connector",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Tile_TriplePowerCenter",
+    "types": "Tile_BatteryComponent"
+  },
+  {
+    "id": 14,
+    "connectorList": [
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Tile_TriplePowerCenter",
+    "types": "Tile_BatteryComponent"
+  },
+  {
+    "id": 15,
+    "connectorList": [
+      "DOUBLE_connector",
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Tile_TriplePowerCenter",
+    "types": "Tile_BatteryComponent"
+  },
+  {
+    "id": 16,
+    "connectorList": [
+      "DOUBLE_connector",
+      "DOUBLE_connector",
+      "SINGLE_connector",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Tile_TriplePowerCenter",
+    "types": "Tile_BatteryComponent"
+  },
+  {
+    "id": 17,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Tile_TriplePowerCenter",
+    "types": "Tile_BatteryComponent"
+  },
+  {
+    "id": 18,
+    "connectorList": [
+      "DOUBLE_connector",
+      "SINGLE_connector",
+      "UNIV_connector",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Storage",
+    "types": "Tile_CargoHold",
+    "capacity": 2
+  },
+  {
+    "id": 19,
+    "connectorList": [
+      "DOUBLE_connector",
+      "SINGLE_connector",
+      "UNIV_connector",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Storage",
+    "types": "Tile_CargoHold",
+    "capacity": 2
+  },
+  {
+    "id": 20,
+    "connectorList": [
+      "DOUBLE_connector",
+      "UNIV_connector",
+      "SMOOTH_SIDE",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Storage",
+    "types": "Tile_CargoHold",
+    "capacity": 2
+  },
+  {
+    "id": 21,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "Storage",
+    "types": "Tile_CargoHold",
+    "capacity": 2
+  },
+  {
+    "id": 22,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "Storage",
+    "types": "Tile_CargoHold",
+    "capacity": 2
+  },
+  {
+    "id": 23,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "Storage",
+    "types": "Tile_CargoHold",
+    "capacity": 2
+  },
+  {
+    "id": 24,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "Storage",
+    "types": "Tile_CargoHold",
+    "capacity": 2
+  },
+  {
+    "id": 25,
+    "connectorList": [
+      "DOUBLE_connector",
+      "SINGLE_connector",
+      "DOUBLE_connector",
+      "UNIV_connector"
+    ],
+    "jsontype": "Storage",
+    "types": "Tile_CargoHold",
+    "capacity": 2
+  },
+  {
+    "id": 26,
+    "connectorList": [
+      "UNIV_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "Storage",
+    "types": "Tile_CargoHold",
+    "capacity": 2
+  },
+  {
+    "id": 27,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Storage",
+    "types": "Tile_CargoHold",
+    "capacity": 3
+  },
+  {
+    "id": 28,
+    "connectorList": [
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Storage",
+    "types": "Tile_CargoHold",
+    "capacity": 3
+  },
+  {
+    "id": 29,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "Storage",
+    "types": "Tile_CargoHold",
+    "capacity": 3
+  },
+  {
+    "id": 30,
+    "connectorList": [
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Storage",
+    "types": "Tile_CargoHold",
+    "capacity": 3
+  },
+  {
+    "id": 31,
+    "connectorList": [
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Storage",
+    "types": "Tile_CargoHold",
+    "capacity": 3
+  },
+  {
+    "id": 32,
+    "connectorList": [
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "Storage",
+    "types": "Tile_CargoHold",
+    "capacity": 3
+  },
+  {
+    "id": 33,
+    "connectorList": [
+      "UNIV_connector",
+      "UNIV_connector",
+      "UNIV_connector",
+      "UNIV_connector"
+    ],
+    "jsontype": "Tile_HousingUnit",
+    "types": "Tile_Cabin"
+  },
+  {
+    "id": 34,
+    "connectorList": [
+      "UNIV_connector",
+      "UNIV_connector",
+      "UNIV_connector",
+      "UNIV_connector"
+    ],
+    "jsontype": "Tile_HousingUnit",
+    "types": "Tile_Cabin"
+  },
+  {
+    "id": 35,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "UNIV_connector",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Tile_HousingUnit",
+    "types": "Tile_Cabin"
+  },
+  {
+    "id": 36,
+    "connectorList": [
+      "SINGLE_connector",
+      "DOUBLE_connector",
+      "SINGLE_connector",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Tile_HousingUnit",
+    "types": "Tile_Cabin"
+  },
+  {
+    "id": 37,
+    "connectorList": [
+      "SINGLE_connector",
+      "DOUBLE_connector",
+      "DOUBLE_connector",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Tile_HousingUnit",
+    "types": "Tile_Cabin"
+  },
+  {
+    "id": 38,
+    "connectorList": [
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Tile_HousingUnit",
+    "types": "Tile_Cabin"
+  },
+  {
+    "id": 39,
+    "connectorList": [
+      "DOUBLE_connector",
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Tile_HousingUnit",
+    "types": "Tile_Cabin"
+  },
+  {
+    "id": 40,
+    "connectorList": [
+      "DOUBLE_connector",
+      "SINGLE_connector",
+      "DOUBLE_connector",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Tile_HousingUnit",
+    "types": "Tile_Cabin"
+  },
+  {
+    "id": 41,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "UNIV_connector",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "Tile_HousingUnit",
+    "types": "Tile_Cabin"
+  },
+  {
+    "id": 42,
+    "connectorList": [
+      "SINGLE_connector",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "Tile_HousingUnit",
+    "types": "Tile_Cabin"
+  },
+  {
+    "id": 43,
+    "connectorList": [
+      "DOUBLE_connector",
+      "SINGLE_connector",
+      "DOUBLE_connector",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "Tile_HousingUnit",
+    "types": "Tile_Cabin"
+  },
+  {
+    "id": 44,
+    "connectorList": [
+      "UNIV_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "Tile_HousingUnit",
+    "types": "Tile_Cabin"
+  },
+  {
+    "id": 45,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "Tile_HousingUnit",
+    "types": "Tile_Cabin"
+  },
+  {
+    "id": 46,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "SINGLE_connector",
+      "UNIV_connector"
+    ],
+    "jsontype": "Tile_HousingUnit",
+    "types": "Tile_Cabin"
+  },
+  {
+    "id": 47,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "Tile_HousingUnit",
+    "types": "Tile_Cabin"
+  },
+  {
+    "id": 48,
+    "connectorList": [
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "UNIV_connector"
+    ],
+    "jsontype": "Tile_HousingUnit",
+    "types": "Tile_Cabin"
+  },
+  {
+    "id": 49,
+    "connectorList": [
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "UNIV_connector"
+    ],
+    "jsontype": "Tile_HousingUnit",
+    "types": "Tile_Cabin"
+  },
+  {
+    "id": 50,
+    "connectorList": [
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "UNIV_connector"
+    ],
+    "jsontype": "Tile_HousingUnit",
+    "types": "Tile_Cabin"
+  },
+  {
+    "id": 51,
+    "connectorList": [
+      "DOUBLE_connector",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "Tile_HousingUnit",
+    "types": "Tile_Cabin"
+  },
+  {
+    "id": 52,
+    "connectorList": [
+      "UNIV_connector",
+      "UNIV_connector",
+      "UNIV_connector",
+      "UNIV_connector"
+    ],
+    "jsontype": "Tile_HousingUnit",
+    "types": "Tile_Cabin"
+  },
+  {
+    "id": 53,
+    "connectorList": [
+      "UNIV_connector",
+      "UNIV_connector",
+      "SMOOTH_SIDE",
+      "SINGLE_connector"
+    ],
+    "jsontype": "SpaceShipTile",
+    "types": "Tile_StructuralModules"
+  },
+  {
+    "id": 54,
+    "connectorList": [
+      "SINGLE_connector",
+      "UNIV_connector",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "SpaceShipTile",
+    "types": "Tile_StructuralModules"
+  },
+  {
+    "id": 55,
+    "connectorList": [
+      "SINGLE_connector",
+      "UNIV_connector",
+      "SINGLE_connector",
+      "UNIV_connector"
+    ],
+    "jsontype": "SpaceShipTile",
+    "types": "Tile_StructuralModules"
+  },
+  {
+    "id": 56,
+    "connectorList": [
+      "SINGLE_connector",
+      "UNIV_connector",
+      "DOUBLE_connector",
+      "UNIV_connector"
+    ],
+    "jsontype": "SpaceShipTile",
+    "types": "Tile_StructuralModules"
+  },
+  {
+    "id": 57,
+    "connectorList": [
+      "DOUBLE_connector",
+      "UNIV_connector",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "SpaceShipTile",
+    "types": "Tile_StructuralModules"
+  },
+  {
+    "id": 58,
+    "connectorList": [
+      "UNIV_connector",
+      "SINGLE_connector",
+      "DOUBLE_connector",
+      "UNIV_connector"
+    ],
+    "jsontype": "SpaceShipTile",
+    "types": "Tile_StructuralModules"
+  },
+  {
+    "id": 59,
+    "connectorList": [
+      "UNIV_connector",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "SpaceShipTile",
+    "types": "Tile_StructuralModules"
+  },
+  {
+    "id": 60,
+    "connectorList": [
+      "UNIV_connector",
+      "DOUBLE_connector",
+      "DOUBLE_connector",
+      "UNIV_connector"
+    ],
+    "jsontype": "SpaceShipTile",
+    "types": "Tile_StructuralModules"
+  },
+  {
+    "id": 61,
+    "connectorList": [
+      "UNIV_connector",
+      "UNIV_connector",
+      "UNIV_connector",
+      "UNIV_connector"
+    ],
+    "jsontype": "Tile_HousingUnit",
+    "types": "Tile_Cabin"
+  },
+  {
+    "id": 62,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "SINGLE_connector",
+      "UNIV_connector"
+    ],
+    "jsontype": "SpecialStorage",
+    "types": "Tile_SpecialCargoHold",
+    "capacity": 1
+  },
+  {
+    "id": 63,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "UNIV_connector",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "SpecialStorage",
+    "types": "Tile_SpecialCargoHold",
+    "capacity": 1
+  },
+  {
+    "id": 64,
+    "connectorList": [
+      "SINGLE_connector",
+      "SINGLE_connector",
+      "SINGLE_connector",
+      "UNIV_connector"
+    ],
+    "jsontype": "SpecialStorage",
+    "types": "Tile_SpecialCargoHold",
+    "capacity": 1
+  },
+  {
+    "id": 65,
+    "connectorList": [
+      "DOUBLE_connector",
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "SpecialStorage",
+    "types": "Tile_SpecialCargoHold",
+    "capacity": 1
+  },
+  {
+    "id": 66,
+    "connectorList": [
+      "DOUBLE_connector",
+      "DOUBLE_connector",
+      "DOUBLE_connector",
+      "UNIV_connector"
+    ],
+    "jsontype": "SpecialStorage",
+    "types": "Tile_SpecialCargoHold",
+    "capacity": 1
+  },
+  {
+    "id": 67,
+    "connectorList": [
+      "UNIV_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "SpecialStorage",
+    "types": "Tile_SpecialCargoHold",
+    "capacity": 1
+  },
+  {
+    "id": 68,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SINGLE_connector"
+    ],
+    "jsontype": "SpecialStorage",
+    "types": "Tile_SpecialCargoHold",
+    "capacity": 2
+  },
+  {
+    "id": 69,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "SINGLE_connector"
+    ],
+    "jsontype": "SpecialStorage",
+    "types": "Tile_SpecialCargoHold",
+    "capacity": 2
+  },
+  {
+    "id": 70,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "SpecialStorage",
+    "types": "Tile_SpecialCargoHold",
+    "capacity": 2
+  },
+  {
+    "id": 71,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "UNIV_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Engine"
+  },
+  {
+    "id": 72,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "UNIV_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Engine"
+  },
+  {
+    "id": 73,
+    "connectorList": [
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Engine"
+  },
+  {
+    "id": 74,
+    "connectorList": [
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Engine"
+  },
+  {
+    "id": 75,
+    "connectorList": [
+      "SINGLE_connector",
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Engine"
+  },
+  {
+    "id": 76,
+    "connectorList": [
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Engine"
+  },
+  {
+    "id": 77,
+    "connectorList": [
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Engine"
+  },
+  {
+    "id": 78,
+    "connectorList": [
+      "DOUBLE_connector",
+      "UNIV_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Engine"
+  },
+  {
+    "id": 79,
+    "connectorList": [
+      "UNIV_connector",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Engine"
+  },
+  {
+    "id": 80,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "UNIV_connector",
+      "SMOOTH_SIDE",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Engine"
+  },
+  {
+    "id": 81,
+    "connectorList": [
+      "DOUBLE_connector",
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Engine"
+  },
+  {
+    "id": 82,
+    "connectorList": [
+      "UNIV_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Engine"
+  },
+  {
+    "id": 83,
+    "connectorList": [
+      "UNIV_connector",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Engine"
+  },
+  {
+    "id": 84,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Engine"
+  },
+  {
+    "id": 85,
+    "connectorList": [
+      "SINGLE_connector",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Engine"
+  },
+  {
+    "id": 86,
+    "connectorList": [
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Engine"
+  },
+  {
+    "id": 87,
+    "connectorList": [
+      "UNIV_connector",
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Engine"
+  },
+  {
+    "id": 88,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Engine"
+  },
+  {
+    "id": 89,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Engine"
+  },
+  {
+    "id": 90,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Engine"
+  },
+  {
+    "id": 91,
+    "connectorList": [
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Engine"
+  },
+  {
+    "id": 92,
+    "connectorList": [
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Double_Engine"
+  },
+  {
+    "id": 93,
+    "connectorList": [
+      "SINGLE_connector",
+      "UNIV_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Double_Engine"
+  },
+  {
+    "id": 94,
+    "connectorList": [
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Double_Engine"
+  },
+  {
+    "id": 95,
+    "connectorList": [
+      "UNIV_connector",
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Double_Engine"
+  },
+  {
+    "id": 96,
+    "connectorList": [
+      "SINGLE_connector",
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Double_Engine"
+  },
+  {
+    "id": 97,
+    "connectorList": [
+      "DOUBLE_connector",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Double_Engine"
+  },
+  {
+    "id": 98,
+    "connectorList": [
+      "UNIV_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Double_Engine"
+  },
+  {
+    "id": 99,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "UNIV_connector",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Double_Engine"
+  },
+  {
+    "id": 100,
+    "connectorList": [
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "Engine",
+    "types": "Tile_Double_Engine"
+  },
+  {
+    "id": 101,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 102,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 103,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 104,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 105,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 106,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 107,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "UNIV_connector",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 108,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 109,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "SINGLE_connector",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 110,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "UNIV_connector",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 111,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "UNIV_connector",
+      "SINGLE_connector",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 112,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 113,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 114,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "UNIV_connector",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 115,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "SINGLE_connector",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 116,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "UNIV_connector",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 117,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "UNIV_connector",
+      "SMOOTH_SIDE",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 118,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 119,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 120,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "UNIV_connector",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 121,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 122,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "UNIV_connector",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 123,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "DOUBLE_connector",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 124,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "UNIV_connector"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 125,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Cannon"
+  },
+  {
+    "id": 126,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Double_Cannon"
+  },
+  {
+    "id": 127,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Double_Cannon"
+  },
+  {
+    "id": 128,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "UNIV_connector",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Double_Cannon"
+  },
+  {
+    "id": 129,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "UNIV_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Double_Cannon"
+  },
+  {
+    "id": 130,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "UNIV_connector",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Double_Cannon"
+  },
+  {
+    "id": 131,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "DOUBLE_connector",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Double_Cannon"
+  },
+  {
+    "id": 132,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "SINGLE_connector"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Double_Cannon"
+  },
+  {
+    "id": 133,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "UNIV_connector",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Double_Cannon"
+  },
+  {
+    "id": 134,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "SINGLE_connector",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Double_Cannon"
+  },
+  {
+    "id": 135,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Double_Cannon"
+  },
+  {
+    "id": 136,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "UNIV_connector"
+    ],
+    "jsontype": "Cannon",
+    "types": "Tile_Double_Cannon"
+  },
+  {
+    "id": 137,
+    "connectorList": [
+      "SINGLE_connector",
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "SINGLE_connector"
+    ],
+    "jsontype": "AlienLifeSupport",
+    "types": "Tile_AlienLifeSupport",
+    "aliencolor": "BROWN"
+  },
+  {
+    "id": 138,
+    "connectorList": [
+      "DOUBLE_connector",
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "SINGLE_connector"
+    ],
+    "jsontype": "AlienLifeSupport",
+    "types": "Tile_AlienLifeSupport",
+    "aliencolor": "BROWN"
+  },
+  {
+    "id": 139,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "AlienLifeSupport",
+    "types": "Tile_AlienLifeSupport",
+    "aliencolor": "BROWN"
+  },
+  {
+    "id": 140,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "UNIV_connector"
+    ],
+    "jsontype": "AlienLifeSupport",
+    "types": "Tile_AlienLifeSupport",
+    "aliencolor": "BROWN"
+  },
+  {
+    "id": 141,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "AlienLifeSupport",
+    "types": "Tile_AlienLifeSupport",
+    "aliencolor": "BROWN"
+  },
+  {
+    "id": 142,
+    "connectorList": [
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "AlienLifeSupport",
+    "types": "Tile_AlienLifeSupport",
+    "aliencolor": "BROWN"
+  },
+  {
+    "id": 143,
+    "connectorList": [
+      "SINGLE_connector",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "AlienLifeSupport",
+    "types": "Tile_AlienLifeSupport",
+    "aliencolor": "VIOLET"
+  },
+  {
+    "id": 144,
+    "connectorList": [
+      "DOUBLE_connector",
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "AlienLifeSupport",
+    "types": "Tile_AlienLifeSupport",
+    "aliencolor": "VIOLET"
+  },
+  {
+    "id": 145,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "AlienLifeSupport",
+    "types": "Tile_AlienLifeSupport",
+    "aliencolor": "VIOLET"
+  },
+  {
+    "id": 146,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "UNIV_connector"
+    ],
+    "jsontype": "AlienLifeSupport",
+    "types": "Tile_AlienLifeSupport",
+    "aliencolor": "VIOLET"
+  },
+  {
+    "id": 147,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "AlienLifeSupport",
+    "types": "Tile_AlienLifeSupport",
+    "aliencolor": "VIOLET"
+  },
+  {
+    "id": 148,
+    "connectorList": [
+      "DOUBLE_connector",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "UNIV_connector"
+    ],
+    "jsontype": "AlienLifeSupport",
+    "types": "Tile_AlienLifeSupport",
+    "aliencolor": "VIOLET"
+  },
+  {
+    "id": 149,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "UNIV_connector",
+      "SINGLE_connector"
+    ],
+    "jsontype": "SpaceShipTile",
+    "types": "Tile_ShieldGenerator"
+  },
+  {
+    "id": 150,
+    "connectorList": [
+      "SINGLE_connector",
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "SINGLE_connector"
+    ],
+    "jsontype": "SpaceShipTile",
+    "types": "Tile_ShieldGenerator"
+  },
+  {
+    "id": 151,
+    "connectorList": [
+      "DOUBLE_connector",
+      "SINGLE_connector",
+      "DOUBLE_connector",
+      "SINGLE_connector"
+    ],
+    "jsontype": "SpaceShipTile",
+    "types": "Tile_ShieldGenerator"
+  },
+  {
+    "id": 152,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "UNIV_connector",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "SpaceShipTile",
+    "types": "Tile_ShieldGenerator"
+  },
+  {
+    "id": 153,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "DOUBLE_connector",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "SpaceShipTile",
+    "types": "Tile_ShieldGenerator"
+  },
+  {
+    "id": 154,
+    "connectorList": [
+      "SINGLE_connector",
+      "DOUBLE_connector",
+      "SINGLE_connector",
+      "DOUBLE_connector"
+    ],
+    "jsontype": "SpaceShipTile",
+    "types": "Tile_ShieldGenerator"
+  },
+  {
+    "id": 155,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SINGLE_connector",
+      "UNIV_connector"
+    ],
+    "jsontype": "SpaceShipTile",
+    "types": "Tile_ShieldGenerator"
+  },
+  {
+    "id": 156,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "DOUBLE_connector",
+      "DOUBLE_connector",
+      "UNIV_connector"
+    ],
+    "jsontype": "SpaceShipTile",
+    "types": "Tile_ShieldGenerator"
+  },
+  {
+    "id": 157,
+    "connectorList": [
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE",
+      "SMOOTH_SIDE"
+    ],
+    "jsontype": "SpaceShipTile",
+    "types": "Tile_NonAccesiblePlace"
+  }
+]

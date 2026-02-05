@@ -1,0 +1,8 @@
+/* styles.css */
+.button {
+    -fx-wrap-text: true;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-font-size: 12pt;
+    -fx-padding: 8;
+}

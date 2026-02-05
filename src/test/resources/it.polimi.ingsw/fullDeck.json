@@ -1,0 +1,1047 @@
+[
+  {
+    "id": 1,
+    "cardName": "Schiavisti",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_Slavers",
+    "goodsPenalty": 0,
+    "goodsGained": [],
+    "daysPenalty": 1,
+    "firePower": 6,
+    "crewLost": 3,
+    "moneyGained": 5
+  },
+  {
+    "id": 2,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  },
+  {
+    "id": 3,
+    "cardName": "Pirati",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": false,
+        "rotation": 180,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Cannon"
+      },
+      {
+        "isBig": false,
+        "rotation": 180,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "cardName": "Polvere Stellare",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Stardust"
+  },
+  {
+    "id": 5,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 6,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 7,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 8,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 9,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": false,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 0,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "cardName": "Pianeti",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 3,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 2,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 3,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 2,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "cardName": "Pianeti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "cardName": "Pianeti",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 3,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          },
+          {
+            "value": 2,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          },
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "cardName": "Pianeti",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 1,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 2,
+            "radioactivity": false
+          },
+          {
+            "value": 2,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 2,
+    "moneyEarned": 3
+  },
+  {
+    "id": 18,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 19,
+    "cardName": "Stazione Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedStation",
+    "flightDaysPenalty": 1,
+    "requiredCrew": 5,
+    "goodsArray": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "cardName": "Stazione Abbandonata",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_AbandonedStation",
+    "flightDaysPenalty": 1,
+    "requiredCrew": 6,
+    "goodsArray": [
+      {
+        "value": 4,
+        "radioactivity": true
+      },
+      {
+        "value": 4,
+        "radioactivity": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "cardName": "Schiavisti",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_Slavers",
+    "goodsPenalty": 0,
+    "goodsGained": [],
+    "daysPenalty": 2,
+    "firePower": 7,
+    "crewLost": 4,
+    "moneyGained": 8
+  },
+  {
+    "id": 22,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 3,
+    "goodsGained": [
+      {
+        "value": 4,
+        "radioactivity": true
+      },
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 3,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 8
+  },
+  {
+    "id": 23,
+    "cardName": "Pirati",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 2,
+    "firePower": 6,
+    "moneyGained": 7,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Cannon"
+      },
+      {
+        "isBig": false,
+        "rotation": 180,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "cardName": "Polvere Stellare",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_Stardust"
+  },
+  {
+    "id": 25,
+    "cardName": "Epidemia",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_Epidemic"
+  },
+  {
+    "id": 26,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 27,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 28,
+    "cardName": "Spazio Aperto",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_OpenSpace"
+  },
+  {
+    "id": 29,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": false,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": true,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 0,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 0,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": false,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "cardName": "Pianeti",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 4,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 2,
+            "radioactivity": false
+          },
+          {
+            "value": 2,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "cardName": "Pianeti",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 3,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 4,
+            "radioactivity": true
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 2,
+            "radioactivity": false
+          },
+          {
+            "value": 2,
+            "radioactivity": false
+          },
+          {
+            "value": 2,
+            "radioactivity": false
+          },
+          {
+            "value": 2,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "cardName": "Pianeti",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 2,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 4,
+            "radioactivity": true
+          },
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          },
+          {
+            "value": 2,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 2,
+            "radioactivity": false
+          },
+          {
+            "value": 2,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "cardName": "Pianeti",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_PlanetCard",
+    "FlightDaysPenalty": 3,
+    "PlanetVector": [
+      {
+        "goodsList": [
+          {
+            "value": 2,
+            "radioactivity": false
+          },
+          {
+            "value": 2,
+            "radioactivity": false
+          },
+          {
+            "value": 2,
+            "radioactivity": false
+          },
+          {
+            "value": 2,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 3,
+            "radioactivity": false
+          },
+          {
+            "value": 3,
+            "radioactivity": false
+          }
+        ]
+      },
+      {
+        "goodsList": [
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          },
+          {
+            "value": 1,
+            "radioactivity": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Fire_power"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Crew"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 4
+      },
+      {
+        "consequenceType": "Consequences_Lost_goods",
+        "numGoods": 3
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 180,
+            "type": "Cannon"
+          },
+          {
+            "isBig": false,
+            "rotation": 90,
+            "type": "Cannon"
+          },
+          {
+            "isBig": false,
+            "rotation": 270,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 0,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 4,
+    "moneyEarned": 6
+  },
+  {
+    "id": 38,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 2,
+    "crewNumberPenalty": 5,
+    "moneyEarned": 8
+  },
+  {
+    "id": 39,
+    "cardName": "Stazione Abbandonata",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_AbandonedStation",
+    "flightDaysPenalty": 1,
+    "requiredCrew": 7,
+    "goodsArray": [
+      {
+        "value": 4,
+        "radioactivity": true
+      },
+      {
+        "value": 3,
+        "radioactivity": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "cardName": "Stazione Abbandonata",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_AbandonedStation",
+    "flightDaysPenalty": 2,
+    "requiredCrew": 8,
+    "goodsArray": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      }
+    ]
+  }
+]

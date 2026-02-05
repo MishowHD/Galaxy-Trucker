@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "cardName": "Pioggia Di Meteoriti",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_MeteorSwarm",
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 180,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 90,
+        "type": "Meteor"
+      },
+      {
+        "isBig": false,
+        "rotation": 270,
+        "type": "Meteor"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1722 @@
+[
+  {
+    "id": 1,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "cardName": "Zona Di Guerra",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Combat_zone",
+    "causes": [
+      {
+        "causeType": "Causes_Crew"
+      },
+      {
+        "causeType": "Causes_Motion_power"
+      },
+      {
+        "causeType": "Causes_Fire_power"
+      }
+    ],
+    "consequences": [
+      {
+        "consequenceType": "Consequences_Lost_days",
+        "numDays": 3
+      },
+      {
+        "consequenceType": "Consequences_Lost_crew",
+        "numPass": 2
+      },
+      {
+        "consequenceType": "Consequences_Shots",
+        "Shots": [
+          {
+            "isBig": false,
+            "rotation": 0,
+            "type": "Cannon"
+          },
+          {
+            "isBig": true,
+            "rotation": 180,
+            "type": "Cannon"
+          }
+        ]
+      }
+    ]
+  }
+]

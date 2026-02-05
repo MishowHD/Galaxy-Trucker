@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane prefHeight="600" prefWidth="800"
+            xmlns="http://javafx.com/javafx/23.0.1"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="it.polimi.ingsw.View.GUI.PlayerShipBoard_Page_LevTest_Controller"
+            stylesheets="@../css/fxml_class.css">
+
+    <!-- Top: Banner e controlli -->
+    <top>
+        <VBox spacing="5">
+            <Label fx:id="playerBanner"
+                   alignment="CENTER"
+                   maxWidth="Infinity"
+                   styleClass="player-name"
+                   style="-fx-font-size: 20; -fx-text-fill: white; -fx-font-weight: bold;"
+                   text="Player Name"/>
+            <HBox alignment="CENTER" spacing="10" style="-fx-padding: 5;">
+                <Button fx:id="endBuildingButton"
+                        disable="true"
+                        onAction="#handleEndBuilding"
+                        text="End Building"
+                        styleClass="sci-fi-button"/>
+                <ComboBox fx:id="playerNumberComboBox"
+                          prefHeight="26.0"
+                          prefWidth="128.0"
+                          promptText="Select position"
+                          styleClass="sci-fi-combobox"/>
+            </HBox>
+        </VBox>
+    </top>
+
+    <!-- Left: Carte e lista degli oggetti -->
+    <left>
+        <VBox spacing="10">
+            <StackPane fx:id="cardPane" prefWidth="200.0"/>
+            <Label fx:id="cardText"
+                   wrapText="true"
+                   styleClass="card-text-bg"
+                   style="-fx-text-fill: white; -fx-background-color: transparent;"
+                   maxWidth="250"/>
+            <ScrollPane fx:id="scrollPane"
+                        fitToHeight="false"
+                        fitToWidth="true"
+                        hbarPolicy="NEVER"
+                        vbarPolicy="AS_NEEDED"
+                        VBox.vgrow="ALWAYS"
+                        style="-fx-background-color: rgba(255,255,255,0.2);
+                               -fx-background-radius: 12;
+                               -fx-background-insets: 0;
+                               -fx-background: transparent;
+                               -fx-padding: 10;
+                               -fx-border-width: 0;">
+                <VBox fx:id="itemsList"
+                      alignment="TOP_CENTER"
+                      spacing="10"
+                      style="-fx-background-color: transparent;
+                             -fx-padding: 5;
+                             -fx-min-height: 0;"/>
+            </ScrollPane>
+        </VBox>
+    </left>
+
+    <!-- Center: Tabella di gioco -->
+    <center>
+        <StackPane fx:id="centerStackPane"
+                   minHeight="200"
+                   minWidth="200"
+                   prefHeight="473.0"
+                   prefWidth="539.0">
+            <ImageView fx:id="boardBackground">
+                <Image url="@../graphics/cardboard/cardboard-1.jpg"/>
+            </ImageView>
+            <GridPane fx:id="gridMatrix"
+                      style="-fx-background-color: transparent;"
+                      GridPane.hgrow="ALWAYS"
+                      GridPane.vgrow="ALWAYS"/>
+        </StackPane>
+    </center>
+
+    <!-- Right: Controlli aggiuntivi -->
+    <right>
+        <VBox fx:id="controlsBox"
+              alignment="TOP_CENTER"
+              minWidth="111.0"
+              prefHeight="483.0"
+              prefWidth="211.0"
+              spacing="10"
+              style="-fx-text-fill: white; -fx-wrap-text: true;">
+
+            <Label fx:id="labelNextPlayer"
+                   maxWidth="Infinity"
+                   styleClass="card-text-bg"
+                   style="-fx-text-fill: white;"
+                   text="Wait your Turn!"
+                   wrapText="true"/>
+
+            <StackPane style="-fx-background-color: transparent;">
+                <VBox alignment="CENTER" spacing="10">
+                    <StackPane fx:id="currentItemContainer"
+                               alignment="TOP_CENTER"
+                               style="-fx-background-color: rgba(255,255,255,0.2);
+                                      -fx-background-radius: 12;
+                                      -fx-padding: 10;
+                                      -fx-border-width: 0;">
+                        <ImageView fx:id="currentItem"
+                                   fitHeight="69.0"
+                                   fitWidth="69.0"
+                                   preserveRatio="true">
+                            <cursor>
+                                <Cursor fx:constant="DEFAULT"/>
+                            </cursor>
+                        </ImageView>
+                    </StackPane>
+
+                    <HBox spacing="5"/>
+
+                    <ListView fx:id="depositedTilesListView"
+                              minWidth="100"
+                              opacity="0.0"
+                              prefHeight="68.0"
+                              prefWidth="150"/>
+
+                    <Button fx:id="pickTileButton"
+                            onAction="#handlePickTile"
+                            text="Pick Tile"
+                            maxWidth="Infinity"
+                            styleClass="sci-fi-button"/>
+
+                    <Button fx:id="rotateButton"
+                            onAction="#handleRotate"
+                            text="Rotate Tile"
+                            maxWidth="Infinity"
+                            styleClass="sci-fi-button"/>
+                </VBox>
+            </StackPane>
+
+<!--            &lt;!&ndash; Box 4: Surrender &ndash;&gt;-->
+<!--            <VBox fx:id="boxSURREND"-->
+<!--                  managed="false"-->
+<!--                  spacing="5"-->
+<!--                  visible="false"-->
+<!--                  style="-fx-padding: 8; -fx-background-color: rgba(0,0,0,0.5);">-->
+<!--                <Label text="You can choose to surrender now. If you don't want to, don't do anything"-->
+<!--                       styleClass="card-text-bg"-->
+<!--                       style="-fx-text-fill: white; -fx-wrap-text: true; -fx-background-color: transparent;"/>-->
+<!--                <Button fx:id="handleSurrend"-->
+<!--                        onAction="#handleSurrend"-->
+<!--                        text="Surrender"-->
+<!--                        styleClass="sci-fi-button"/>-->
+<!--            </VBox>-->
+
+            <!-- Box 16: Landing on a Planet -->
+            <VBox fx:id="boxACCEPT_TO_LAND_ON_A_PLANET"
+                  managed="false"
+                  spacing="5"
+                  visible="false"
+                  style="-fx-padding: 8; -fx-background-color: rgba(0,0,0,0.5);">
+                <Label fx:id="label16"
+                       styleClass="card-text-bg"
+                       maxWidth="Infinity"
+                       style="-fx-text-fill: white;"
+                       text="Do you want to land on the planet?"
+                       wrapText="true"/>
+                <Button fx:id="yesBtn16"
+                        onAction="#handleAccepting"
+                        text="Yes"
+                        styleClass="sci-fi-button"/>
+                <Button fx:id="noBtn16"
+                        onAction="#handleDeclinePlanet"
+                        text="No, skip the landing"
+                        styleClass="sci-fi-button"/>
+                <VBox fx:id="afterChoice0" spacing="5">
+                    <Button fx:id="planetBtn0" onAction="#handleAcceptPlanet0" text="Land on planet 0"
+                            styleClass="sci-fi-button"/>
+                    <Button fx:id="planetBtn1" onAction="#handleAcceptPlanet1" text="Land on planet 1"
+                            styleClass="sci-fi-button"/>
+                    <Button fx:id="planetBtn2" onAction="#handleAcceptPlanet2" text="Land on planet 2"
+                            styleClass="sci-fi-button"/>
+                    <Button fx:id="planetBtn3" onAction="#handleAcceptPlanet3" text="Land on planet 3"
+                            styleClass="sci-fi-button"/>
+                </VBox>
+            </VBox>
+
+            <!-- Box 17: Claim Reward with Storage & Goods -->
+            <VBox fx:id="boxCHOOSE_ABANDONED_STATION"
+                  managed="false"
+                  spacing="5"
+                  visible="false"
+                  style="-fx-padding: 8; -fx-background-color: rgba(0,0,0,0.5);">
+                <Label fx:id="label17"
+                       styleClass="card-text-bg"
+                       maxWidth="Infinity"
+                       style="-fx-text-fill: white;"
+                       text="If you have the necessary passengers and you want to collect the reward, click yes. Then select where to place the goods you earned."
+                       wrapText="true"/>
+                <VBox spacing="5">
+                    <Button fx:id="yesBtn17" onAction="#handleAcceptReward17" text="Yes" styleClass="sci-fi-button"/>
+                    <Button fx:id="noBtn17" onAction="#handleDeclineReward17" text="No" styleClass="sci-fi-button"/>
+                </VBox>
+                <VBox fx:id="afterChoice" spacing="5">
+                    <Button fx:id="selectStorageBtn17"
+                            onAction="#handleSelectStorageForGoodsStation"
+                            text="Select storage cells"
+                            styleClass="sci-fi-button"/>
+                    <Button fx:id="handleSelectGood1_17"
+                            disable="true"
+                            onAction="#handleSelectGood1_22"
+                            text="Good 1"
+                            styleClass="sci-fi-button">
+                        <graphic>
+                            <ImageView fx:id="good1img17" fitWidth="24" fitHeight="24" preserveRatio="true"/>
+                        </graphic>
+                    </Button>
+                    <Button fx:id="handleSelectGood2_17"
+                            disable="true"
+                            onAction="#handleSelectGood2_22"
+                            text="Good 2"
+                            styleClass="sci-fi-button">
+                        <graphic>
+                            <ImageView fx:id="good2img17" fitWidth="24" fitHeight="24" preserveRatio="true"/>
+                        </graphic>
+                    </Button>
+                    <Button fx:id="handleSelectGood3_17"
+                            disable="true"
+                            onAction="#handleSelectGood3_22"
+                            text="Good 3"
+                            styleClass="sci-fi-button">
+                        <graphic>
+                            <ImageView fx:id="good3img17" fitWidth="24" fitHeight="24" preserveRatio="true"/>
+                        </graphic>
+                    </Button>
+                    <Button fx:id="handleSelectGood4_17"
+                            disable="true"
+                            onAction="#handleSelectGood4_22"
+                            text="Good 4"
+                            styleClass="sci-fi-button">
+                        <graphic>
+                            <ImageView fx:id="good4img17" fitWidth="24" fitHeight="24" preserveRatio="true"/>
+                        </graphic>
+                    </Button>
+                    <Button fx:id="doneBtn17"
+                            disable="true"
+                            onAction="#handlechooseAbandonedStationSendReward17"
+                            text="Submit choice"
+                            styleClass="sci-fi-button"/>
+                </VBox>
+            </VBox>
+
+            <!-- Box 18: Choose Cannon & Batteries -->
+            <VBox fx:id="boxCHOOSE_CANNON_BATTERY_POS"
+                  managed="false"
+                  spacing="5"
+                  visible="false"
+                  style="-fx-padding: 8; -fx-background-color: rgba(0,0,0,0.5);">
+                <Label fx:id="label18"
+                       styleClass="card-text-bg"
+                       maxWidth="Infinity"
+                       style="-fx-text-fill: white;"
+                       text="Select cannons to activate and then select batteries to power them. Confirm when done."
+                       wrapText="true"/>
+                <Button fx:id="yesBtn18" onAction="#handleAccepting" text="I want to activate cannons"
+                        styleClass="sci-fi-button"/>
+                <Button fx:id="noBtn18" onAction="#handleDeclineCannonBatteryActivation" text="Don't activate anything"
+                        styleClass="sci-fi-button"/>
+                <VBox fx:id="afterChoice18" spacing="5">
+                    <Button fx:id="selectCannonsBtn18" onAction="#handleSelectCannons" text="Select cannons"
+                            styleClass="sci-fi-button"/>
+                    <Button fx:id="selectBatteriesBtn18" onAction="#handleSelectBatteriesForCannons"
+                            text="Select batteries" styleClass="sci-fi-button"/>
+                    <Button fx:id="doneBtn18" onAction="#handleSendCannonBatteryActivation" text="Confirm (no cannons)"
+                            styleClass="sci-fi-button"/>
+                </VBox>
+            </VBox>
+
+            <!-- Box 19: Meteor Defense -->
+            <VBox fx:id="boxCHOOSE_HOW_TO_FACE_METEORS"
+                  managed="false"
+                  spacing="5"
+                  visible="false"
+                  style="-fx-padding: 8; -fx-background-color: rgba(0,0,0,0.5);">
+                <Label fx:id="label19"
+                       styleClass="card-text-bg"
+                       maxWidth="Infinity"
+                       style="-fx-text-fill: white;"
+                       text="Click on shield/cannon and then battery component to select how to defend from meteors, then confirm."
+                       wrapText="true"/>
+                <Button fx:id="yesBtn19" onAction="#handleAccepting" text="I want to face meteors"
+                        styleClass="sci-fi-button"/>
+                <Button fx:id="noBtn19" onAction="#handleDeclineToFaceMeteors" text="Don't activate anything"
+                        styleClass="sci-fi-button"/>
+                <VBox fx:id="afterChoice19" spacing="5">
+                    <Button fx:id="selectTilesBtn19" onAction="#handleStartMeteorDefense" text="Select defense tiles"
+                            styleClass="sci-fi-button"/>
+                    <Button fx:id="doneBtn19" onAction="#handleSendMeteorDefense" text="Send"
+                            styleClass="sci-fi-button"/>
+                </VBox>
+            </VBox>
+
+            <!-- Box 20: Choose Passengers to Lose -->
+            <VBox fx:id="boxCHOOSE_PASSENGERS_TO_LOSE"
+                  managed="false"
+                  spacing="5"
+                  visible="false"
+                  style="-fx-padding: 8; -fx-background-color: rgba(0,0,0,0.5);">
+                <Label maxWidth="Infinity"
+                       styleClass="card-text-bg"
+                       style="-fx-text-fill: white;"
+                       text="Click on passengers to lose. Double-click to lose more than one. Confirm when done."
+                       wrapText="true"/>
+                <Button fx:id="yesBtn20" onAction="#handleAccepting" text="Yes" styleClass="sci-fi-button"/>
+                <Button fx:id="noBtn20" onAction="#handleSendPassengerLoss" text="No" styleClass="sci-fi-button"/>
+                <VBox fx:id="afterChoice20" spacing="5">
+                    <Button fx:id="selectPassengersBtn20" onAction="#handleSelectPassengersToLose"
+                            text="Select passengers" styleClass="sci-fi-button"/>
+                    <Button fx:id="doneBtn20" onAction="#handleSendPassengerLoss" text="Done"
+                            styleClass="sci-fi-button"/>
+                </VBox>
+            </VBox>
+
+            <!-- Box 21: Simple Claim Reward -->
+            <VBox fx:id="boxCHOOSE_TO_CLAIM_REWARD"
+                  managed="false"
+                  spacing="5"
+                  visible="false"
+                  style="-fx-padding: 8; -fx-background-color: rgba(0,0,0,0.5);">
+                <Label maxWidth="Infinity"
+                       styleClass="card-text-bg"
+                       style="-fx-text-fill: white;"
+                       text="Do you want to claim the reward?" wrapText="true"/>
+                <Button fx:id="yesBtn21" onAction="#handleClaimRewardYes" text="Yes, claim it"
+                        styleClass="sci-fi-button"/>
+                <Button fx:id="noBtn21" onAction="#handleClaimRewardNo" text="No, skip reward"
+                        styleClass="sci-fi-button"/>
+            </VBox>
+
+            <!-- Box 22: Claim Reward with Storage & Goods -->
+            <VBox fx:id="boxCHOOSE_TO_CLAIM_REWARD_WITH_GOODS"
+                  managed="false"
+                  spacing="5"
+                  visible="false"
+                  style="-fx-padding: 8; -fx-background-color: rgba(0,0,0,0.5);">
+                <Label fx:id="label22"
+                       styleClass="card-text-bg"
+                       maxWidth="Infinity"
+                       style="-fx-text-fill: white;"
+                       text="Do you want to claim the reward?" wrapText="true"/>
+                <HBox spacing="5">
+                    <Button fx:id="yesBtn22" onAction="#handleAcceptReward22" text="Yes" styleClass="sci-fi-button"/>
+                    <Button fx:id="noBtn22" onAction="#handleDeclineReward22" text="No" styleClass="sci-fi-button"/>
+                </HBox>
+                <VBox fx:id="afterChoice22" spacing="5">
+                    <Button fx:id="selectStorageBtn22" onAction="#handleSelectStorageForGoods"
+                            text="Select storage cells" styleClass="sci-fi-button"/>
+                    <Button fx:id="handleSelectGood1_22" disable="true" onAction="#handleSelectGood1_22" text="Good 1"
+                            styleClass="sci-fi-button">
+                        <graphic>
+                            <ImageView fx:id="ivGood1" fitWidth="24" fitHeight="24" preserveRatio="true"/>
+                        </graphic>
+                    </Button>
+                    <Button fx:id="handleSelectGood2_22" disable="true" onAction="#handleSelectGood2_22" text="Good 2"
+                            styleClass="sci-fi-button">
+                        <graphic>
+                            <ImageView fx:id="ivGood2" fitWidth="24" fitHeight="24" preserveRatio="true"/>
+                        </graphic>
+                    </Button>
+                    <Button fx:id="handleSelectGood3_22" disable="true" onAction="#handleSelectGood3_22" text="Good 3"
+                            styleClass="sci-fi-button">
+                        <graphic>
+                            <ImageView fx:id="ivGood3" fitWidth="24" fitHeight="24" preserveRatio="true"/>
+                        </graphic>
+                    </Button>
+                    <Button fx:id="handleSelectGood4_22" disable="true" onAction="#handleSelectGood4_22" text="Good 4"
+                            styleClass="sci-fi-button">
+                        <graphic>
+                            <ImageView fx:id="ivGood4" fitWidth="24" fitHeight="24" preserveRatio="true"/>
+                        </graphic>
+                    </Button>
+                    <Button fx:id="doneBtn22" disable="true" onAction="#handleSendRewardGoodsPlacement"
+                            text="Submit choice" styleClass="sci-fi-button"/>
+                </VBox>
+            </VBox>
+
+            <!-- Box 23: Place Batteries -->
+            <VBox fx:id="boxCHOOSE_TO_PLACE_BATTERIES"
+                  managed="false"
+                  spacing="5"
+                  visible="false"
+                  style="-fx-padding: 8; -fx-background-color: rgba(0,0,0,0.5);">
+                <Label maxWidth="Infinity" styleClass="card-text-bg" style="-fx-text-fill: white;"
+                       text="Select cells where to place the batteries, then confirm." wrapText="true"/>
+                <Button fx:id="selectTilesBtn23" onAction="#handleSelectBatteryPositions"
+                        text="Select battery positions" styleClass="sci-fi-button"/>
+                <Button fx:id="doneBtn23" onAction="#handleSendBatteryPlacement" text="Done"
+                        styleClass="sci-fi-button"/>
+            </VBox>
+
+            <!-- Box 24: Start Firepower -->
+            <VBox fx:id="boxCHOOSE_TO_START_FIRE_POWER"
+                  managed="false"
+                  spacing="5"
+                  visible="false"
+                  style="-fx-padding: 8; -fx-background-color: rgba(0,0,0,0.5);">
+                <Label maxWidth="Infinity" styleClass="card-text-bg" style="-fx-text-fill: white;"
+                       text="Select cannons to fire and the batteries to power them, then confirm." wrapText="true"/>
+                <Button fx:id="yesBtn24" onAction="#handleAccepting" text="Select cannons" styleClass="sci-fi-button"/>
+                <Button fx:id="noBtn24" onAction="#handleDeclineBatteriesForFirepower" text="Don't activate anything"
+                        styleClass="sci-fi-button"/>
+                <VBox fx:id="afterChoice24" spacing="5">
+                    <Button fx:id="selectCannonsBtn24" onAction="#handleSelectCannonsFirepower" text="Select cannons"
+                            styleClass="sci-fi-button"/>
+                    <Button fx:id="selectBatteriesBtn24" onAction="#handleSelectBatteriesForFirepower"
+                            text="Select batteries" styleClass="sci-fi-button"/>
+                    <Button fx:id="doneBtn24" onAction="#handleSendFirepowerActivation" text="Done"
+                            styleClass="sci-fi-button"/>
+                </VBox>
+            </VBox>
+
+            <!-- Box 25: Start Motor -->
+            <VBox fx:id="boxCHOOSE_TO_START_MOTOR"
+                  managed="false"
+                  spacing="5"
+                  visible="false"
+                  style="-fx-padding: 8; -fx-background-color: rgba(0,0,0,0.5);">
+                <Label fx:id="label25" styleClass="card-text-bg" maxWidth="Infinity" style="-fx-text-fill: white;"
+                       text="Select engines to activate and the batteries to power them, then confirm."
+                       wrapText="true"/>
+                <Button fx:id="yesBtn25" onAction="#handleAccepting" text="Select engines" styleClass="sci-fi-button"/>
+                <Button fx:id="noBtn25" onAction="#handleDeclineEngineActivation" text="Don't activate anything"
+                        styleClass="sci-fi-button"/>
+                <VBox fx:id="afterChoice25" spacing="5">
+                    <Button fx:id="selectEnginesBtn25" onAction="#handleSelectEngines" text="Select engines"
+                            styleClass="sci-fi-button"/>
+                    <Button fx:id="selectBatteriesBtn25" onAction="#handleSelectBatteriesForEngines"
+                            text="Select batteries" styleClass="sci-fi-button"/>
+                    <Button fx:id="doneBtn25" onAction="#handleSendEngineActivation" text="Send"
+                            styleClass="sci-fi-button"/>
+                </VBox>
+            </VBox>
+
+            <!-- Box 26: Place Goods -->
+            <VBox fx:id="boxCHOOSE_WHERE_TO_PUT_GOODS"
+                  managed="false"
+                  spacing="5"
+                  visible="false"
+                  style="-fx-padding: 8; -fx-background-color: rgba(0,0,0,0.5);">
+                <Label fx:id="label26" styleClass="card-text-bg" maxWidth="Infinity" style="-fx-text-fill: white;"
+                       text="Select cells where to place the goods from reward, then confirm." wrapText="true"/>
+                <Button fx:id="selectStorageBtn26" onAction="#handleSelectGoodsPlacement" text="Select storage cells"
+                        styleClass="sci-fi-button"/>
+                <Button fx:id="handleSelectGood1" onAction="#handleSelectGood1" text="Add Good (Value 1)"
+                        styleClass="sci-fi-button">
+                    <graphic>
+                        <ImageView fx:id="good1img26" fitWidth="24" fitHeight="24" preserveRatio="true"/>
+                    </graphic>
+                </Button>
+                <Button fx:id="handleSelectGood2" onAction="#handleSelectGood2" text="Add Good (Value 2)"
+                        styleClass="sci-fi-button">
+                    <graphic>
+                        <ImageView fx:id="good2img26" fitWidth="24" fitHeight="24" preserveRatio="true"/>
+                    </graphic>
+                </Button>
+                <Button fx:id="handleSelectGood3" onAction="#handleSelectGood3" text="Add Good (Value 3)"
+                        styleClass="sci-fi-button">
+                    <graphic>
+                        <ImageView fx:id="good3img26" fitWidth="24" fitHeight="24" preserveRatio="true"/>
+                    </graphic>
+                </Button>
+                <Button fx:id="handleSelectGood4" onAction="#handleSelectGood4" text="Add Good (Value 4)"
+                        styleClass="sci-fi-button">
+                    <graphic>
+                        <ImageView fx:id="good4img26" fitWidth="24" fitHeight="24" preserveRatio="true"/>
+                    </graphic>
+                </Button>
+                <Button fx:id="doneBtn26" onAction="#handleSendGoodsPlacement" text="Done" styleClass="sci-fi-button"/>
+            </VBox>
+
+            <Button fx:id="demoButton"
+                    onAction="#demoGame"
+                    text="DEMO"
+                    maxWidth="Infinity"
+                    styleClass="sci-fi-button"/>
+
+            <padding>
+                <Insets bottom="5" left="5" right="5" top="5"/>
+            </padding>
+        </VBox>
+    </right>
+
+    <!-- Bottom: Logo -->
+    <bottom>
+        <HBox alignment="BOTTOM_LEFT" spacing="10">
+            <padding>
+                <Insets bottom="5" left="5" right="5" top="5"/>
+            </padding>
+            <ImageView fx:id="logoImageView"
+                       fitHeight="40"
+                       fitWidth="40"
+                       preserveRatio="true"/>
+        </HBox>
+    </bottom>
+</BorderPane>
+
+

@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 2,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 3,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 4,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 5,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 6,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 7,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 8,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 9,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 10,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 11,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 12,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 13,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 14,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 15,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 16,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 17,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 18,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 19,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 20,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 21,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 22,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 23,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 24,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 25,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 26,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 27,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 28,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 29,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 30,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 31,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  },
+  {
+    "id": 32,
+    "cardName": "Nave Abbandonata",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_AbandonedShip",
+    "flightDaysPenalty": 1,
+    "crewNumberPenalty": 3,
+    "moneyEarned": 4
+  }
+]

@@ -1,0 +1,579 @@
+[
+  {
+    "id": 1,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  },
+  {
+    "id": 2,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  },
+  {
+    "id": 3,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  },
+  {
+    "id": 4,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  },
+  {
+    "id": 5,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  },
+  {
+    "id": 6,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  },
+  {
+    "id": 7,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  },
+  {
+    "id": 8,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  },
+  {
+    "id": 9,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  },
+  {
+    "id": 10,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  },
+  {
+    "id": 11,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  },
+  {
+    "id": 12,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 1,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  },
+  {
+    "id": 13,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  },
+  {
+    "id": 14,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  },
+  {
+    "id": 15,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  },
+  {
+    "id": 16,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  },
+  {
+    "id": 17,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  },
+  {
+    "id": 18,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  },
+  {
+    "id": 19,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  },
+  {
+    "id": 20,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  },
+  {
+    "id": 21,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  },
+  {
+    "id": 21,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  },
+  {
+    "id": 22,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  },
+  {
+    "id": 23,
+    "cardName": "Contrabbandieri",
+    "CardLevel": 2,
+    "isTest": true,
+    "type": "Card_Smugglers",
+    "goodsPenalty": 2,
+    "goodsGained": [
+      {
+        "value": 3,
+        "radioactivity": false
+      },
+      {
+        "value": 2,
+        "radioactivity": false
+      },
+      {
+        "value": 1,
+        "radioactivity": false
+      }
+    ],
+    "daysPenalty": 1,
+    "firePower": 4
+  }
+]
+

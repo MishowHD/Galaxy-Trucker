@@ -1,0 +1,86 @@
+
+#rootStack {
+    -fx-background-color: linear-gradient(to bottom, #2a0038 0%, #5c006e 100%);
+}
+#backgroundVideo {
+    -fx-opacity: 1;
+    -fx-blend-mode: SRC_OVER;
+}
+.border-pane {
+    -fx-background-color: transparent;
+}
+#rootStack .label {
+    -fx-font-family: "Orbitron", monospace;
+    -fx-font-size: 32px;
+    -fx-text-fill: #FFEA00;
+}
+
+#scoreTable {
+    -fx-pref-width: 1300px;
+    -fx-pref-height: 600px;
+    -fx-background-color: #111111;
+    -fx-border-color: #FFEA00;
+    -fx-border-width: 2;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+    -fx-padding: 12;
+}
+
+#scoreTable .virtual-flow,
+#scoreTable .clipped-container,
+#scoreTable .column-header-background,
+#scoreTable .table-row-cell {
+    -fx-background-color:  #111111;
+}
+
+#scoreTable .column-header-background {
+    -fx-background-color:#111111;
+}
+
+#scoreTable .column-header,
+#playerColumn,
+#scoreColumn {
+    -fx-font-family: "Bank Gothic", sans-serif;
+    -fx-font-size: 20px;
+    -fx-text-fill: #FFEA00;
+    -fx-alignment: CENTER;
+    -fx-background-color: transparent;
+}
+
+
+/* Cells text */
+#scoreTable .table-cell {
+    -fx-font-family: "Consolas", monospace;
+    -fx-font-size: 18px;
+    -fx-text-fill: #FFEA00;
+    -fx-background-color: transparent;
+}
+#exitButton {
+    -fx-background-color: linear-gradient(to bottom, #ff6666 0%, #ff1a1a 100%);
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #FF0000;
+    -fx-border-width: 3;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "Orbitron", monospace;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-padding: 16 40 16 40;
+}
+#exitButton:hover {
+    -fx-background-color: linear-gradient(to bottom, #ff8080 0%, #ff3333 100%);
+}
+#exitButton:pressed {
+    -fx-background-color: linear-gradient(to bottom, #e60000 0%, #b30000 100%);
+    -fx-border-color: #CC0000;
+    -fx-text-fill: #FFE6E6;
+}
+.center > .stack-pane {
+    -fx-padding: 24;
+}
+
+/* Footer alignment */
+.bottom > .hbox {
+    -fx-alignment: CENTER;
+    -fx-spacing: 20;
+}

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>it.polimi.ingsw</groupId>
+    <artifactId>IS25-AM05</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>IS25-AM05</name>
+
+    <!-- ───────────── proprietà comuni ───────────── -->
+    <properties>
+        <javafx.version>24</javafx.version>
+        <maven.compiler.source>23</maven.compiler.source>
+        <maven.compiler.target>23</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!-- ───────────── dipendenze “core” ───────────── -->
+    <dependencies>
+        <!-- JavaFX neutro: serve a compilare -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-media</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+
+        <!-- Jackson -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.17.2</version>
+        </dependency>
+
+        <!-- JUnit (solo test) -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.10.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.10.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-shade-plugin</artifactId>
+            <version>3.6.0</version>
+        </dependency>
+    </dependencies>
+
+    <!-- ───────────── profili: 4 jar ───────────── -->
+    <profiles>
+
+        <!-- ███ CLIENT macOS (Apple Silicon) ███ -->
+        <profile>
+            <id>client-mac</id>
+
+            <!-- dipendenze JavaFX native -->
+            <dependencies>
+                <dependency>
+                    <groupId>org.openjfx</groupId><artifactId>javafx-base</artifactId>
+                    <version>${javafx.version}</version><classifier>mac-aarch64</classifier>
+                </dependency>
+                <dependency>
+                    <groupId>org.openjfx</groupId><artifactId>javafx-graphics</artifactId>
+                    <version>${javafx.version}</version><classifier>mac-aarch64</classifier>
+                </dependency>
+                <dependency>
+                    <groupId>org.openjfx</groupId><artifactId>javafx-controls</artifactId>
+                    <version>${javafx.version}</version><classifier>mac-aarch64</classifier>
+                </dependency>
+                <dependency>
+                    <groupId>org.openjfx</groupId><artifactId>javafx-fxml</artifactId>
+                    <version>${javafx.version}</version><classifier>mac-aarch64</classifier>
+                </dependency>
+                <dependency>
+                    <groupId>org.openjfx</groupId><artifactId>javafx-media</artifactId>
+                    <version>${javafx.version}</version><classifier>mac-aarch64</classifier>
+                </dependency>
+            </dependencies>
+
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-shade-plugin</artifactId>
+                        <version>3.6.0</version>
+                        <executions>
+                            <execution>
+                                <id>fat-client-mac</id><phase>package</phase><goals><goal>shade</goal></goals>
+                                <configuration>
+                                    <shadedArtifactAttached>true</shadedArtifactAttached>
+                                    <shadedClassifierName>client-mac-aarch64</shadedClassifierName>
+                                    <createDependencyReducedPom>false</createDependencyReducedPom>
+
+
+
+                                    <transformers>
+                                        <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                            <mainClass>it.polimi.ingsw.Network.Client.ClientMain</mainClass>
+                                        </transformer>
+                                    </transformers>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+        <!-- ███ CLIENT Linux (x64) ███ -->
+        <profile>
+            <id>client-linux</id>
+
+            <dependencies>
+                <dependency>
+                    <groupId>org.openjfx</groupId><artifactId>javafx-base</artifactId>
+                    <version>${javafx.version}</version><classifier>linux</classifier>
+                </dependency>
+                <dependency>
+                    <groupId>org.openjfx</groupId><artifactId>javafx-graphics</artifactId>
+                    <version>${javafx.version}</version><classifier>linux</classifier>
+                </dependency>
+                <dependency>
+                    <groupId>org.openjfx</groupId><artifactId>javafx-controls</artifactId>
+                    <version>${javafx.version}</version><classifier>linux</classifier>
+                </dependency>
+                <dependency>
+                    <groupId>org.openjfx</groupId><artifactId>javafx-fxml</artifactId>
+                    <version>${javafx.version}</version><classifier>linux</classifier>
+                </dependency>
+                <dependency>
+                    <groupId>org.openjfx</groupId><artifactId>javafx-media</artifactId>
+                    <version>${javafx.version}</version><classifier>linux</classifier>
+                </dependency>
+            </dependencies>
+
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-shade-plugin</artifactId>
+                        <version>3.6.0</version>
+                        <executions>
+                            <execution>
+                                <id>fat-client-linux</id><phase>package</phase><goals><goal>shade</goal></goals>
+                                <configuration>
+                                    <shadedArtifactAttached>true</shadedArtifactAttached>
+                                    <shadedClassifierName>client-linux</shadedClassifierName>
+                                    <createDependencyReducedPom>false</createDependencyReducedPom>
+
+
+
+                                    <transformers>
+                                        <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                            <mainClass>it.polimi.ingsw.Network.Client.ClientMain</mainClass>
+                                        </transformer>
+                                    </transformers>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+        <!-- ███ SERVER macOS ███ -->
+        <profile>
+            <id>server-mac</id>
+
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-shade-plugin</artifactId>
+                        <version>3.6.0</version>
+                        <executions>
+                            <execution>
+                                <id>fat-server-mac</id><phase>package</phase><goals><goal>shade</goal></goals>
+                                <configuration>
+                                    <shadedArtifactAttached>true</shadedArtifactAttached>
+                                    <shadedClassifierName>server-mac-aarch64</shadedClassifierName>
+                                    <createDependencyReducedPom>false</createDependencyReducedPom>
+
+                                    <!-- escludi ogni jar JavaFX -->
+
+
+                                    <transformers>
+                                        <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                            <mainClass>it.polimi.ingsw.Network.Server.ServerMain</mainClass>
+                                        </transformer>
+                                    </transformers>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+        <!-- ███ SERVER Linux ███ -->
+        <profile>
+            <id>server-linux</id>
+
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-shade-plugin</artifactId>
+                        <version>3.6.0</version>
+                        <executions>
+                            <execution>
+                                <id>fat-server-linux</id><phase>package</phase><goals><goal>shade</goal></goals>
+                                <configuration>
+                                    <shadedArtifactAttached>true</shadedArtifactAttached>
+                                    <shadedClassifierName>server-linux</shadedClassifierName>
+                                    <createDependencyReducedPom>false</createDependencyReducedPom>
+
+
+
+                                    <transformers>
+                                        <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                            <mainClass>it.polimi.ingsw.Network.Server.ServerMain</mainClass>
+                                        </transformer>
+                                    </transformers>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
+    <!-- ───────────── plugin comuni ───────────── -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+                <configuration>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M9</version>
+            </plugin>
+
+            <!-- solo per run da IDE -->
+            <plugin>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <version>0.0.8</version>
+            </plugin>
+        </plugins>
+    </build>
+</project>

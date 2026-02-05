@@ -1,0 +1,650 @@
+[
+  {
+    "id": 1,
+    "cardName": "Pirati",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "cardName": "Pirati",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "cardName": "Pirati",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "cardName": "Pirati",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "cardName": "Pirati",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "cardName": "Pirati",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "cardName": "Pirati",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "cardName": "Pirati",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "cardName": "Pirati",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "cardName": "Pirati",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "cardName": "Pirati",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "cardName": "Pirati",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "cardName": "Pirati",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "cardName": "Pirati",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "cardName": "Pirati",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "cardName": "Pirati",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "cardName": "Pirati",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "cardName": "Pirati",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "cardName": "Pirati",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "cardName": "Pirati",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "cardName": "Pirati",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "cardName": "Pirati",
+    "CardLevel": 2,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "cardName": "Pirati",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "cardName": "Pirati",
+    "CardLevel": 1,
+    "isTest": false,
+    "type": "Card_Pirates",
+    "daysPenalty": 1,
+    "firePower": 5,
+    "moneyGained": 4,
+    "shots": [
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      },
+      {
+        "isBig": true,
+        "rotation": 270,
+        "type": "Cannon"
+      }
+    ]
+  }
+]

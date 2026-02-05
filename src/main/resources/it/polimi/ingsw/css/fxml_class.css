@@ -1,0 +1,276 @@
+/* ==================== BUTTONS ==================== */
+.sci-fi-button,
+.dialog-button {
+    -fx-background-color: linear-gradient(to bottom, #0D0D0D 0%, #222222 100%);
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-border-color: #FFEA00;
+    -fx-border-width: 2;
+    -fx-text-fill: #FFEA00;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 20 8 20;
+    -fx-effect: dropshadow(gaussian, #FFEA00, 16, 0, 0, 0);
+    -fx-wrap-text: true;
+    -fx-text-alignment: center;
+    -fx-text-overrun: clip;
+}
+
+.sci-fi-button:hover,
+.dialog-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #111111 0%, #333333 100%);
+    -fx-effect: dropshadow(gaussian, #FFEA00, 24, 0, 0, 0);
+}
+
+.sci-fi-button:pressed,
+.dialog-button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #222222 0%, #111111 100%);
+    -fx-border-color: #E6C200;
+    -fx-text-fill: #E6C200;
+    -fx-effect: dropshadow(gaussian, #E6C200, 8, 0, 0, 0);
+}
+
+.dialog-button {
+    -fx-pref-width: 160px;
+}
+
+/* Alt button – stessa palette, sfondo diverso */
+.sci-fi-button-alt {
+    -fx-background-color: linear-gradient(to bottom, #1B1B33 0%, #2D2D4C 100%);
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-border-color: #FFEA00;
+    -fx-border-width: 2;
+    -fx-text-fill: #FFEA00;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 20 8 20;
+    -fx-effect: dropshadow(gaussian, #FFEA00, 16, 0, 0, 0);
+    -fx-wrap-text: true;
+    -fx-text-alignment: center;
+    -fx-text-overrun: clip;
+}
+
+.sci-fi-button-alt:hover {
+    -fx-background-color: linear-gradient(to bottom, #242446 0%, #3A3A65 100%);
+    -fx-effect: dropshadow(gaussian, #FFEA00, 24, 0, 0, 0);
+}
+
+.sci-fi-button-alt:pressed {
+    -fx-background-color: linear-gradient(to bottom, #3A3A65 0%, #242446 100%);
+    -fx-border-color: #E6C200;
+    -fx-text-fill: #E6C200;
+    -fx-effect: dropshadow(gaussian, #E6C200, 8, 0, 0, 0);
+}
+
+.sci-fi-button-large {
+    -fx-font-size: 24px;
+    -fx-padding: 14 50 14 50;
+}
+
+/* ==================== TABPANE ==================== */
+.sci-fi-tab-pane {
+    -fx-background-color: transparent;
+}
+
+.sci-fi-tab-pane .tab-header-area {
+    -fx-background-color: transparent;
+    -fx-padding: 5 0 0 0;
+}
+
+.sci-fi-tab-pane .headers-region,
+.sci-fi-tab-pane .tab-header-background,
+.sci-fi-tab-pane .tab-content-area {
+    -fx-background-color: transparent;
+}
+
+.sci-fi-tab-pane .tab {
+    -fx-background-color: linear-gradient(to bottom, #0D0D0D 0%, #222222 100%);
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-border-color: #FFEA00;
+    -fx-border-width: 2;
+    -fx-text-base-color: #FFEA00;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 20 8 20;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, #FFEA00, 16, 0, 0, 0);
+}
+
+.sci-fi-tab-pane .tab:hover {
+    -fx-background-color: linear-gradient(to bottom, #111111 0%, #333333 100%);
+    -fx-effect: dropshadow(gaussian, #FFEA00, 24, 0, 0, 0);
+}
+
+.sci-fi-tab-pane .tab:selected,
+.sci-fi-tab-pane .tab:selected:focused {
+    -fx-background-color: #FFEA00;
+    -fx-border-color: #FFFF80;
+    -fx-text-base-color: #222222;
+    -fx-effect: dropshadow(gaussian, #FFFF80, 24, 0, 0, 0);
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.sci-fi-tab-pane .tab:focused {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-border-color: transparent;
+    -fx-effect: none;
+    -fx-background-color: transparent;
+}
+
+/* ==================== COMBOBOX ==================== */
+.sci-fi-combobox {
+    -fx-background-color: linear-gradient(to bottom, #0D0D0D 0%, #222222 100%);
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-border-width: 2;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-text-fill: #FFEA00;
+    -fx-prompt-text-fill: #FFEA00;
+    -fx-padding: 6 20 6 20;
+    -fx-min-width: 180px;
+}
+
+.sci-fi-combobox:focused {
+    -fx-effect: none;
+}
+
+.sci-fi-combobox .list-view {
+    -fx-background-color: linear-gradient(to bottom, #0D0D0D 0%, #222222 100%);
+    -fx-border-color: #FFEA00;
+    -fx-border-width: 2;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 4 0;
+}
+
+.sci-fi-combobox .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #FFEA00;
+    -fx-font-size: 14px;
+    -fx-padding: 6 12;
+}
+
+.sci-fi-combobox .list-cell:hover {
+    -fx-background-color: rgba(255, 234, 0, 0.1);
+}
+
+.sci-fi-combobox .arrow-button {
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+    -fx-padding: 0 6 0 0;
+}
+
+.sci-fi-combobox .arrow {
+    -fx-shape: "M 0 0 L 8 0 L 4 5 Z";
+    -fx-background-color: #FFEA00;
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+    -fx-padding: 0;
+}
+
+.sci-fi-combobox .list-view .scroll-bar:vertical {
+    -fx-pref-width: 6;
+    -fx-background-color: transparent;
+}
+
+.sci-fi-combobox .list-view .scroll-bar:vertical .thumb {
+    -fx-background-color: #FFEA00;
+    -fx-background-radius: 3;
+}
+
+
+/* testo più grande nei bottoni */
+.sci-fi-button,
+.dialog-button {
+    -fx-font-size: 16px;
+}
+
+/* label dei popup più grande + un po’ più larga */
+.dialog-label {
+    -fx-font-size: 15px;
+    -fx-max-width: 200px;
+}
+
+/* card-text: font più grande, nessun pannello dietro */
+.card-text {
+    -fx-font-size: 18px;
+    -fx-line-spacing: 3px;
+    -fx-background-color: transparent;
+}
+
+.card-text-bg {
+    -fx-font-family: "Orbitron", "Bank Gothic", "Consolas", monospace;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-wrap-text: true;
+    -fx-text-alignment: center;
+    -fx-line-spacing: 3px;
+    -fx-text-fill: #FFEA00;
+    -fx-background-color: rgba(0, 0, 0, 0.65); /* nero semi-trasparente */
+    -fx-background-radius: 8;
+    -fx-padding: 8 12 8 12;
+}
+
+.player-name {
+    -fx-font-family: "Orbitron", "Bank Gothic", "Consolas", monospace;
+    -fx-font-size: 34px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFE700; /* neon-yellow, richiama l’HUD */
+    -fx-text-alignment: center;
+    -fx-padding: 12 28 12 28;
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(gaussian, #000000, 40, 0.40, 0, 0),
+    dropshadow(gaussian, #7A00FF, 80, 0.15, 0, 0);
+}
+
+.galaxy-radio {
+    -fx-font-size: 22px; /* un po’ più piccolo */
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF; /* testo bianco */
+}
+
+.galaxy-radio .radio {
+    -fx-background-color: #0D0D0D; /* disco nero */
+    -fx-background-radius: 14;
+    -fx-padding: 6;
+    -fx-border-radius: 14;
+    -fx-border-width: 2;
+    -fx-border-color: #FFC400; /* oro soft */
+    -fx-effect: dropshadow(gaussian, rgba(255, 196, 0, 0.35), 6, 0.3, 0, 0); /* glow più discreto */
+}
+
+.galaxy-radio:hover .radio {
+    -fx-border-color: #FFD84D;
+    -fx-effect: dropshadow(gaussian, rgba(255, 216, 77, 0.45), 6, 0.35, 0, 0);
+}
+
+/* selezionato – disco pieno oro, glow lieve */
+.galaxy-radio:selected .radio {
+    -fx-background-color: #FFC400;
+    -fx-border-color: #FFD84D;
+    -fx-effect: dropshadow(gaussian, rgba(255, 216, 77, 0.55), 2, 0.4, 0, 0);
+}
+
+/* puntino interno selezionato (più piccolo) */
+.galaxy-radio:selected .radio .dot {
+    -fx-background-color: #0D0D0D;
+    -fx-background-radius: 20;
+}
+
+/* ==== pannello dietro ai controlli (“glass card”) ==== */
+.setup-panel {
+    -fx-background-color: rgba(0, 0, 0, 0.55);
+    -fx-background-radius: 15;
+    -fx-border-color: rgba(255, 234, 0, 0.35);
+    -fx-border-width: 2;
+    -fx-border-radius: 15;
+    -fx-padding: 30 40 30 40;
+    -fx-effect: dropshadow(gaussian, rgba(255, 234, 0, 0.25), 18, 0.4, 0, 0);
+}
+
