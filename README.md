@@ -116,3 +116,13 @@ java -jar IS25-AM05-1.0-SNAPSHOT-client-<architecture>.jar <IP> <method> <interf
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
+
+## 📢 Distribution / Legal Notice
+
+This project was developed by students as part of the Software Engineering course at Politecnico di Milano (Academic Year 2024–2025).  
+The original game is distributed by **Cranio Creations**.
+
+**Note:** For copyright reasons, the graphical assets included in this repository have been modified and do not correspond to the official game version.  
+The MIT License applies **only to the code written by the students**, not to the original game's assets.
+
+---
