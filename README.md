@@ -1,11 +1,11 @@
-# Galaxy Trucker
+# Galaxy Trip
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## 📖 Project Overview
 
-Galaxy Trucker is a Java-based implementation of the popular board game, developed as part of the Software Engineering course at Politecnico di Milano (Academic Year 2024–2025). Players construct their spaceships in real-time using pipes, engines, and cabins, while navigating meteoroids, space pirates, and other cosmic challenges.
+Galaxy Trip is a Java-based implementation of the popular board game, developed as part of the Software Engineering course at Politecnico di Milano (Academic Year 2024–2025). Players construct their spaceships in real-time using pipes, engines, and cabins, while navigating meteoroids, space pirates, and other cosmic challenges.
 
 ## 🛠️ Project Structure
 
